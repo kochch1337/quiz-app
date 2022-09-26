@@ -1,10 +1,30 @@
 h1 {
   position: fixed;
   display: flex;
+  color: red;
+  width: 100%;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-left: 0;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: aqua;
 }
 
 .navigation {
-  position: fixed;
-  bottom: 0;
   display: flex;
+  justify-content: space-evenly;
+}
+
+.nav-link {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  width: 33%;
 }
