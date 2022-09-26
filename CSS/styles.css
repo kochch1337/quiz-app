@@ -1,10 +1,49 @@
 h1 {
-  position: fixed;
+  position: sticky;
   display: flex;
+  color: red;
+  width: 100%;
+  background-color: lightblue;
+}
+
+.body-footer {
+  position: fixed;
+  bottom: 1em;
+  width: 100%;
+  padding-left: 0;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: lightblue;
 }
 
 .navigation {
+  display: flex;
+  justify-content: space-evenly;
+  width: inherit;
+}
+
+.nav-link {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  width: 2em;
+  height: 2em;
+}
+
+.sources-footer {
   position: fixed;
   bottom: 0;
+  width: 100%;
+  padding-left: 0;
+  height: 1em;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: lightblue;
+}
+
+.sources-footer a {
+  margin: 1em;
 }
