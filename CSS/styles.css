@@ -1,0 +1,10 @@
+h1 {
+  position: fixed;
+  display: flex;
+}
+
+.navigation {
+  position: fixed;
+  bottom: 0;
+  display: flex;
+}
