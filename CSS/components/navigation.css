@@ -5,7 +5,7 @@
   background-color: var(--headerFooter-background-color);
 }
 
-.nav-link {
+.navigation__link {
   border-style: solid;
   border-width: 2px;
   border-color: black;

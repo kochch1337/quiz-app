@@ -3,7 +3,7 @@
   display: inline;
 }
 
-.categories li {
+.categories__listItem {
   border: 2px solid black;
   border-radius: 25%;
   display: inline-block;

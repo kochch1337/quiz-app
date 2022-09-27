@@ -22,7 +22,7 @@
   background-color: var(--headerFooter-background-color);
 }
 
-.sources-footer a {
+.sources-footer__link {
   margin: 1em;
   background-color: var(--headerFooter-background-color);
 }
