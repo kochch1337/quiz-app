@@ -1,0 +1,15 @@
+.navigation {
+  display: flex;
+  justify-content: space-evenly;
+  width: inherit;
+  background-color: var(--headerFooter-background-color);
+}
+
+.nav-link {
+  border-style: solid;
+  border-width: 2px;
+  border-color: black;
+  width: 2em;
+  height: 2em;
+  background-color: var(--headerFooter-background-color);
+}

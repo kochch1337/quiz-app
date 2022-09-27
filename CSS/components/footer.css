@@ -1,0 +1,28 @@
+.body-footer {
+  position: fixed;
+  bottom: 1em;
+  width: 100%;
+  padding-left: 0;
+  height: 4em;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--headerFooter-background-color);
+}
+
+.sources-footer {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding-left: 0;
+  height: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--headerFooter-background-color);
+}
+
+.sources-footer a {
+  margin: 1em;
+  background-color: var(--headerFooter-background-color);
+}

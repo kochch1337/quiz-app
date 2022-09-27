@@ -1,0 +1,7 @@
+.bookmark-button {
+  position: absolute;
+  top: -1em;
+  right: 1em;
+  background-color: var(--primary-background-color);
+  z-index: 10;
+}

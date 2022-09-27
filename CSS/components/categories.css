@@ -1,0 +1,10 @@
+.categories {
+  list-style: none;
+  display: inline;
+}
+
+.categories li {
+  border: 2px solid black;
+  border-radius: 25%;
+  display: inline-block;
+}

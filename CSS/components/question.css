@@ -1,0 +1,12 @@
+.question {
+  display: flex;
+  border-style: solid;
+  border-width: 2px;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+
+.question-text {
+  text-align: center;
+}
